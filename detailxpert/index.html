@@ -5,20 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DetailXpert | Clean, Restore & Detail Auto — Santa Iria de Azóia</title>
 <meta name="description" content="Estética automóvel premium em Santa Iria de Azóia: polimento, proteção PPF, restauro de interiores e limpeza de motor.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;1,800;1,900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="assets/logo.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="nav">
-  <a class="brand" href="#home">Detail<span>Xpert</span></a>
-  <nav><a href="#servicos">Serviços</a><a href="#resultados">Resultados</a><a href="#galeria">Estúdio</a><a href="#contactos">Contactos</a></nav>
-  <a class="btn small" href="tel:926076244">926 076 244</a>
+  <a class="logo" href="#home" aria-label="DetailXpert — início"><img src="assets/logo.png" alt="DetailXpert — Clean, Restore &amp; Detail Auto"></a>
+  <nav id="menu"><a href="#servicos">Serviços</a><a href="#resultados">Resultados</a><a href="#galeria">Estúdio</a><a href="#contactos">Contactos</a></nav>
+  <a class="btn small" href="tel:926076244">Ligar</a>
+  <button class="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
 </header>
 
-<section id="home" class="hero" style="background-image:linear-gradient(90deg,#05070dee 35%,#05070d66),url(assets/porsche-911.jpg)">
-  <p class="tag">Especialistas em Santa Iria de Azóia</p>
-  <h1>Detail<span>Xpert</span></h1>
-  <p class="lead">A perfeição em cada detalhe, a proteção que o seu carro exige.</p>
-  <a class="btn" href="#contactos">Marcar avaliação</a>
+<section id="home" class="hero">
+  <p class="tag">Estética automóvel de elite</p>
+  <h1>DETAIL<span>X</span>PERT</h1>
+  <p class="lead">“Clean, Restore &amp; Detail Auto.”</p>
+  <a class="btn" href="#contactos">Marcar serviço</a>
+  <img class="hero-img" src="assets/porsche-911.jpg" alt="Porsche 911 clássico no estúdio DetailXpert">
 </section>
 
 <section id="servicos" class="wrap">
