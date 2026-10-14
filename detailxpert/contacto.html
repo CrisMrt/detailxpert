@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marcar avaliação | DetailXpert</title>
+<meta name="description" content="Peça uma avaliação gratuita à DetailXpert, em Santa Iria de Azóia.">
+<link rel="icon" href="assets/logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="index.html" aria-label="DetailXpert — início"><img src="assets/logo.png" alt="DetailXpert — Clean, Restore &amp; Detail Auto"></a>
+  <nav><a href="index.html#servicos">Serviços</a><a href="index.html#resultados">Resultados</a><a href="index.html#galeria">Estúdio</a><a href="index.html#contactos">Contactos</a></nav>
+  <a class="btn small" href="index.html#contactos">Contactar já</a>
+</header>
+
+<main class="wrap form-wrap">
+  <p class="tag">Pedido de contacto</p>
+  <h2>Marcar <span>avaliação</span></h2>
+  <p class="sub">Preencha o formulário e entraremos em contacto consigo o mais breve possível.</p>
+
+  <form id="pedido" class="form" novalidate>
+    <div class="row">
+      <label>Nome<input type="text" name="nome" autocomplete="given-name" required></label>
+      <label>Apelido<input type="text" name="apelido" autocomplete="family-name" required></label>
+    </div>
+    <div class="row">
+      <label>Contacto telefónico<input type="tel" name="contacto" autocomplete="tel" inputmode="tel" required></label>
+      <label>Email<input type="email" name="email" autocomplete="email" required></label>
+    </div>
+    <label>Mensagem<textarea name="mensagem" rows="6" placeholder="Diga-nos o carro e o serviço que pretende…" required></textarea></label>
+    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+    <label class="check"><input type="checkbox" name="consentimento" required> Aceito que os meus dados sejam usados para responder a este pedido.</label>
+    <button class="btn" type="submit">Enviar pedido</button>
+    <p id="estado" role="status"></p>
+  </form>
+</main>
+
+<footer class="wrap">
+  <p class="copy">© 2026 DetailXpert • Clean, Restore &amp; Detail Auto • Santa Iria de Azóia</p>
+</footer>
+<script src="form.js"></script>
+</body>
+</html>

@@ -31,3 +31,12 @@ footer{border-top:1px solid #ffffff14}.cols{display:grid;grid-template-columns:r
 footer h4{color:var(--ac);margin-bottom:.4rem}footer p a:hover{color:var(--ac)}.copy{margin-top:3rem;color:var(--mut);font-size:.85rem}
 @media(max-width:700px){.nav nav{display:none}.logo{margin-right:auto}}
 footer .cols a{font-size:1.15rem;font-weight:600}
+.form-wrap{max-width:760px;min-height:70vh}
+.form{display:grid;gap:1rem}.row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.form label{display:grid;gap:.35rem;font-size:.9rem;color:var(--mut)}
+.form input,.form textarea{width:100%;background:var(--card);border:1px solid #ffffff1f;border-radius:12px;padding:.85rem 1rem;color:var(--tx);font:inherit;font-size:1rem}
+.form input:focus,.form textarea:focus{outline:2px solid var(--ac);border-color:transparent}
+.form .check{display:flex;gap:.6rem;align-items:flex-start;line-height:1.4}.form .check input{width:auto;margin-top:.25rem}
+.hp{position:absolute;left:-9999px}.form .btn{border:0;cursor:pointer;font:inherit;font-weight:600;justify-self:start}
+.form .btn:disabled{opacity:.6}#estado{min-height:1.5rem}#estado.ok{color:#4ade80}#estado.err{color:#f87171}
+@media(max-width:600px){.row{grid-template-columns:1fr}.form .btn{justify-self:stretch}}
